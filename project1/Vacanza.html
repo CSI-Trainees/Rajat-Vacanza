@@ -236,9 +236,20 @@
 div.block1{
   background-color:white;
   width: 1300px;
-  height: 310px;
+  height: 320px;
   border:none;
-  padding: 10px;
+  
+  margin-left:100px;
+  margin-top:50px;
+  box-shadow: 0px 12px 20px 4px rgba(1,1,1,.4);
+}
+
+div.block3{
+  background-color:white;
+  width: 1300px;
+  height: 320px;
+  border:none;
+  padding-left: 15px;
   margin-left:100px;
   margin-top:50px;
   box-shadow: 0px 12px 20px 4px rgba(1,1,1,.4);
@@ -285,20 +296,20 @@ img.magic{
 /* youtube icon*/
 div.bfooter{
   position: absolute;
-  top:1950px;
+  top:1960px;
   left:685px;
   
 }
 /*insatgram*/
 div.insta{
   position: absolute;
-  top:1950px;
+  top:1960px;
   left:745px;}
 	/* facebook*/
 
   div.facebook{
   position: absolute;
-  top:1950px;
+  top:1960px;
   left:798px;}
 
   div.bottom{position: absolute;
@@ -309,6 +320,16 @@ div.insta{
     padding: 5px 0;
     color:white;
 
+  }
+/*clip image*/
+  img.vintage{
+    clip-path:polygon(200px 0,400px 0,400px 320px,0 320px);
+  }
+  img.quiz{
+    clip-path:polygon(0 0,200px 0,400px 320px,0 320px);
+  }
+  img.magic{
+    clip-path:polygon(200px 0,400px 0,400px 320px,0 320px);
   }
 
   </style>
@@ -335,35 +356,35 @@ div.insta{
 <section class="paragraph">
   <div class="overlay2"></div>
   <p id="round1">
-    <div class="block1"><img src="Vintage.jpg" class="vintage" style="width:400px;height:290px;">
-    <h3>ROUND 1</h3>
-    <hr color="grey">
+    <div class="block3"><img src="Vintage.jpg" class="vintage" style="width:400px;height:320px;"><br>
+   <h3>ROUND 1</h3><hr color="grey" style="border-bottom:0px;margin: 0px;"><br>
+    <h5 style="line-height:20px;font-size:16px;color:grey;">
     Round 1 comprises of 4 domains from which paticipants have to select at least 2 domains and can choose maximum of 4 domains for more points. The more domain you opt for ,the more you score.
-    <br>
+    </h5>
     <br>
     <h4>The four domains are:</h4>
-      Vintage photography | Leaf Collage | Origami Art | Face Mask Art<br><br>
+      <h5 style="font-size:16px;color:grey;">Vintage photography | Leaf Collage | Origami Art | Face Mask Art</h5><br>
      <button class="rule" style="vertical-align: middle"><span>RULES</span></button></div>
    </p>
    <p>
     <div class="block1" >
-    <img src="quiz.jpg" class="quiz" style="width:400px;height:290px;margin-right: 15px;"> 
+    <img src="quiz.jpg" class="quiz" style="width:400px;height:320px;margin-right: 15px;"> <br>
     <h3>ROUND 2</h3>
-    <hr color="grey" >
-    <h5 style="line-height:24px;">
+    <hr color="grey" style="border-bottom:0px;margin:0px;"><br>
+    <h5 style="line-height:20px;font-size:16px;color:grey;">
     Test your knowledge just by answering some basics questions and gain points easily. Round 2 contains quiz questions based on popular TV series and sports.</h5>
     <br>
     <h4>The fields are as follows:</h4>
-    Football | Stranger Things | Criket | F.r.i.e.n.d.s<br><br>
+   <h5 style="font-size:16px;color:grey;">Football | Stranger Things | Criket | F.r.i.e.n.d.s</h5><br>
     <button class="rule" style="vertical-align: middle"><span>RULES</span></button>
    </div>
    </p>
    <p>
-   <div class="block1" >
-    <img src="magic.jpg" class="magic" style="width:400px;height:290px;"> 
+   <div class="block3" >
+    <img src="magic.jpg" class="magic" style="width:400px;height:320px;"> <br>
     <h3>ROUND 3</h3>
-    <hr color="grey"><br>
-    <h5 style="line-height: 24px;">
+    <hr color="grey" style="border-bottom:0px;margin:0px;"><br><br>
+    <h5 style="line-height: 24px;font-size:16px;color:grey;">
     The final round consists of making an interesting and astonishing magic trick vedio which might force people to say "How did you do that!". The best and the most surprising vedio will be selected as the winner.
     </h5>
     <br>
@@ -381,7 +402,7 @@ div.insta{
   </p>
 </section>
 <footer class="footer">
-  <div style="text-decoration:underline dotted white;"><div class="bfooter">
+  <div style="text-decoration: underline dotted white;"><div class="bfooter">
     <i class='fab fa-youtube' style='font-size:36px;color:white;'></i>
   </div>
   <div class="insta">
@@ -389,8 +410,7 @@ div.insta{
     <div class="facebook">
       <i class='fab fa-facebook-square' style='font-size:36px;color:white'></i>
     </div>
-    <br><hr style="width:11%;border:1px dotted white;">
-  </div>
+  <hr style="width:11%;border:1px dotted white;"></div>
 
   <div class="bottom"><p style="text-align:center">&copy CSI:AKGEC 2020</p></div>
 </footer>
