@@ -95,6 +95,7 @@
 			margin: auto;
 			padding:100px 655px 0 ;
 			opacity: .8;
+    
   
 		}
 		img.vac{
@@ -258,7 +259,8 @@
 
 }
 .rotate-icon:hover{
-  transform:rotate(360deg);
+  transform:rotate(360deg)scale(1.1);
+  transition: all 0.3s ease-in-out 0s;
 }
 
 #round1{
@@ -350,6 +352,22 @@ img.magic{
 
   }
 
+  #youtube:hover{
+    transform:scale(1.3);
+  transition: all 0.3s ease-in-out 0s;
+    
+  }
+
+  #face:hover{
+    transform:scale(1.3);
+  transition: all 0.3s ease-in-out 0s;
+    }
+#insta:hover{
+    transform:scale(1.3);
+  transition: all 0.3s ease-in-out 0s;
+    }
+
+
   </style>
 
 
@@ -378,7 +396,7 @@ img.magic{
 <section class="paragraph">
   <div class="overlay2"></div>
   <p id="round1">
-    <div class="block3"><img src="Vintage.jpg" class="vintage" style="width:400px;height:320px;"><br>
+    <div class="block3"><img src="vintage.jpg" class="vintage" style="width:400px;height:320px;"><br>
    <h3>ROUND 1</h3><hr color="grey" style="border-bottom:0px;margin: 0px;"><br>
     <h5 style="line-height:20px;font-size:16px;color:grey;">
     Round 1 comprises of 4 domains from which paticipants have to select at least 2 domains and can choose maximum of 4 domains for more points. The more domain you opt for ,the more you score.
@@ -424,10 +442,12 @@ img.magic{
 </section>
 <footer class="footer">
   <div class="thing">
-    <div style="width:50%;">
-    <i id="youtube" class='fab fa-youtube' style='font-size:36px;color:white;position: absolute;left:45%;top:35px;border-bottom: 2px dotted white;padding-bottom: 2px;'>&nbsp;&nbsp;</i>
-    <i  class='fab fa-instagram' style='font-size:36px;color:white;position:absolute;left:49%;top:35px;border-bottom: 2px dotted white;padding-bottom: 2px;'>&nbsp;&nbsp;</i>
-      <i class='fab fa-facebook-square' style='font-size:36px;color:white;position:absolute;left:52.5%;top:35px;border-bottom: 2px dotted white;padding-bottom: 2px;'>&nbsp;</i>
+    <div style="width:50%;"><a href="https://www.youtube.com/channel/UCrxGbgXygspoAIk5zhOClVQ" target="_blank">
+    <i id="youtube" class='fab fa-youtube' style='font-size:36px;color:white;position: absolute;left:45%;top:35px;border-bottom: 2px dotted white;padding-bottom: 2px;'>&nbsp;&nbsp;</i></a>
+    <a href="https://www.instagram.com/csi_akgec/" target="_blank">
+    <i id="insta" class='fab fa-instagram' style='font-size:36px;color:white;position:absolute;left:49%;top:35px;border-bottom: 2px dotted white;padding-bottom: 2px;'>&nbsp;&nbsp;</i></a>
+      <a href="https://www.facebook.com/csi.akg/" target="_blank">
+      <i id="face" class='fab fa-facebook-square' style='font-size:36px;color:white;position:absolute;left:52.5%;top:35px;border-bottom: 2px dotted white;padding-bottom: 2px;'>&nbsp;</i></a>
    </div></div>
   <div class="bottom"><p style="text-align:center">&copy CSI:AKGEC 2020</p></div>
 </footer>
